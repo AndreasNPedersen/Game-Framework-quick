@@ -4,7 +4,8 @@
 
 The framework is in the GameOfSolidAndDesignPatterns folder
 The GUI is in the BoardGameGui
-The Documentation is in the Doxygen folder
+The Documentation is in the Doxygen folder.
+You will need to build the project to thereafter copy paste the ConfigSettings.xml file to the bin in BoardGameGui
 
 This is an anssignment to proove the factory pattern, state pattern and the singleton pattern.
 The solid principles is in the way I've done the Items and Participants and kept the behavior and the startup closed for modification and open for extension,
