@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Root>
+	<X>
+		4
+	</X>
+	<Y>
+		4
+	</Y>
+	<ChanceOfEnemy>
+		4
+	</ChanceOfEnemy>
+	<ChanceOfItem>
+		8
+	</ChanceOfItem>
+</Root>
