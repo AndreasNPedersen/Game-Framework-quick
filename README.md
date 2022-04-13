@@ -12,3 +12,6 @@ The solid principles is in the way I've done the Items and Participants and kept
 and Liskov Substitution Principle, in which the weaponBase class inheret from the interface IWeapon which makes the children Iron Mace or Wooden sword.
 The use of interfaces, Interface Segregation Principle, WeaponBase and ArmorBase which inherent both from Item and there own interfaces.
 Single-Responsibility Principle, in which the responsability is devided.
+
+Get it at:
+https://github.com/andr12f4/Game-Framework-quick/
