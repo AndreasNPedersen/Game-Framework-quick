@@ -1,0 +1,6 @@
+var searchData=
+[
+  ['setcontext_0',['SetContext',['../class_game_of_solid_and_design_patterns_1_1_participants_1_1_participant_state_1_1_character_state_abstract.html#ad33d7bbccf6d9de0b75c66a60d8822d3',1,'GameOfSolidAndDesignPatterns::Participants::ParticipantState::CharacterStateAbstract']]],
+  ['setinitialhealthpoints_1',['SetInitialHealthPoints',['../interface_game_of_solid_and_design_patterns_1_1_interfaces_1_1_i_startup_participant_base.html#a0bb97918127f73769173fd9bdbeae3b6',1,'GameOfSolidAndDesignPatterns.Interfaces.IStartupParticipantBase.SetInitialHealthPoints()'],['../class_game_of_solid_and_design_patterns_1_1_participants_1_1_participant_base_startup.html#a541de28cb7396d93d6b8cf64370d6836',1,'GameOfSolidAndDesignPatterns.Participants.ParticipantBaseStartup.SetInitialHealthPoints()']]],
+  ['setinitialitems_2',['SetInitialItems',['../interface_game_of_solid_and_design_patterns_1_1_interfaces_1_1_i_startup_participant_base.html#ae01d7ed37f5f6ae4bb363b3036e1a6cb',1,'GameOfSolidAndDesignPatterns.Interfaces.IStartupParticipantBase.SetInitialItems()'],['../class_game_of_solid_and_design_patterns_1_1_participants_1_1_participant_base_startup.html#ae00154ac85b3fed02ddac322a7f486a1',1,'GameOfSolidAndDesignPatterns.Participants.ParticipantBaseStartup.SetInitialItems()']]]
+];

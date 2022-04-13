@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32002.261
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GameOfSolidAndDesignPatterns", "GameOfSolidAndDesignPatterns.csproj", "{68869C95-190A-45B4-9E98-B83ACCB6719B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoardGameGui", "..\BoardGameGui\BoardGameGui.csproj", "{F5BD5F01-2BA0-4086-8F48-B92CC6BC9D15}"
+	ProjectSection(ProjectDependencies) = postProject
+		{68869C95-190A-45B4-9E98-B83ACCB6719B} = {68869C95-190A-45B4-9E98-B83ACCB6719B}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{68869C95-190A-45B4-9E98-B83ACCB6719B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68869C95-190A-45B4-9E98-B83ACCB6719B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68869C95-190A-45B4-9E98-B83ACCB6719B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68869C95-190A-45B4-9E98-B83ACCB6719B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5BD5F01-2BA0-4086-8F48-B92CC6BC9D15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5BD5F01-2BA0-4086-8F48-B92CC6BC9D15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5BD5F01-2BA0-4086-8F48-B92CC6BC9D15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5BD5F01-2BA0-4086-8F48-B92CC6BC9D15}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2446F806-EA1D-45DE-91DA-8FBAB5E9F885}
+	EndGlobalSection
+EndGlobal

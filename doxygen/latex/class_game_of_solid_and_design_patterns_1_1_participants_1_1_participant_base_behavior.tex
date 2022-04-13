@@ -1,0 +1,164 @@
+\hypertarget{class_game_of_solid_and_design_patterns_1_1_participants_1_1_participant_base_behavior}{}\doxysection{Game\+Of\+Solid\+And\+Design\+Patterns.\+Participants.\+Participant\+Base\+Behavior Class Reference}
+\label{class_game_of_solid_and_design_patterns_1_1_participants_1_1_participant_base_behavior}\index{GameOfSolidAndDesignPatterns.Participants.ParticipantBaseBehavior@{GameOfSolidAndDesignPatterns.Participants.ParticipantBaseBehavior}}
+
+
+The Behavior of a Participant  
+
+
+Inheritance diagram for Game\+Of\+Solid\+And\+Design\+Patterns.\+Participants.\+Participant\+Base\+Behavior\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_game_of_solid_and_design_patterns_1_1_participants_1_1_participant_base_behavior}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{interface_game_of_solid_and_design_patterns_1_1_interfaces_1_1_i_item}{IItem}} \mbox{\hyperlink{class_game_of_solid_and_design_patterns_1_1_participants_1_1_participant_base_behavior_a6883b485f658e3cd1fdf040ac660503c}{Add\+Item}} (\mbox{\hyperlink{interface_game_of_solid_and_design_patterns_1_1_interfaces_1_1_i_item}{IItem}} item, List$<$ \mbox{\hyperlink{interface_game_of_solid_and_design_patterns_1_1_interfaces_1_1_i_item}{IItem}} $>$ items, int max\+Item, int max\+Weapons)
+\begin{DoxyCompactList}\small\item\em The participant adds an item to it\textquotesingle{}s list of IItems \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_game_of_solid_and_design_patterns_1_1_participants_1_1_participant_state_1_1_context_state}{Context\+State}} \mbox{\hyperlink{class_game_of_solid_and_design_patterns_1_1_participants_1_1_participant_base_behavior_a24b583f1d3ebb7c7112db169a0fd35bd}{Change\+State}} (\mbox{\hyperlink{interface_game_of_solid_and_design_patterns_1_1_interfaces_1_1_i_item}{IItem}} item, \mbox{\hyperlink{class_game_of_solid_and_design_patterns_1_1_participants_1_1_participant_state_1_1_context_state}{Context\+State}} state)
+\begin{DoxyCompactList}\small\item\em Change the participant state \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{class_game_of_solid_and_design_patterns_1_1_participants_1_1_participant_base_behavior_a1a5042e80386b7697f5b5016ef40803e}{Deal\+Damage}} (List$<$ \mbox{\hyperlink{interface_game_of_solid_and_design_patterns_1_1_interfaces_1_1_i_item}{IItem}} $>$ items, \mbox{\hyperlink{namespace_game_of_solid_and_design_patterns_1_1_participants_1_1_participant_state_a8713058b1b74f5eb321864f398a5543f}{Creature\+State}} state)
+\begin{DoxyCompactList}\small\item\em The damage a participant can do from it\textquotesingle{}s items and state \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{class_game_of_solid_and_design_patterns_1_1_participants_1_1_participant_base_behavior_a0494550ff430583a1aeaeed5d990b4a4}{Receive\+Damage}} (double damage, List$<$ \mbox{\hyperlink{interface_game_of_solid_and_design_patterns_1_1_interfaces_1_1_i_item}{IItem}} $>$ items)
+\begin{DoxyCompactList}\small\item\em The received damage to the participant, which gets reduced from the items \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_game_of_solid_and_design_patterns_1_1_participants_1_1_participant_base_behavior_a855cdaa7a366c4de3fd189f5b157ae6c}{Eat}} (\mbox{\hyperlink{interface_game_of_solid_and_design_patterns_1_1_interfaces_1_1_i_item}{IItem}} item)
+\begin{DoxyCompactList}\small\item\em eat an item of which is a Item\+Base object \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+The Behavior of a Participant 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_game_of_solid_and_design_patterns_1_1_participants_1_1_participant_base_behavior_a6883b485f658e3cd1fdf040ac660503c}\label{class_game_of_solid_and_design_patterns_1_1_participants_1_1_participant_base_behavior_a6883b485f658e3cd1fdf040ac660503c}} 
+\index{GameOfSolidAndDesignPatterns.Participants.ParticipantBaseBehavior@{GameOfSolidAndDesignPatterns.Participants.ParticipantBaseBehavior}!AddItem@{AddItem}}
+\index{AddItem@{AddItem}!GameOfSolidAndDesignPatterns.Participants.ParticipantBaseBehavior@{GameOfSolidAndDesignPatterns.Participants.ParticipantBaseBehavior}}
+\doxysubsubsection{\texorpdfstring{AddItem()}{AddItem()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{interface_game_of_solid_and_design_patterns_1_1_interfaces_1_1_i_item}{IItem}} Game\+Of\+Solid\+And\+Design\+Patterns.\+Participants.\+Participant\+Base\+Behavior.\+Add\+Item (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interface_game_of_solid_and_design_patterns_1_1_interfaces_1_1_i_item}{IItem}}}]{item,  }\item[{List$<$ \mbox{\hyperlink{interface_game_of_solid_and_design_patterns_1_1_interfaces_1_1_i_item}{IItem}} $>$}]{items,  }\item[{int}]{max\+Item,  }\item[{int}]{max\+Weapons }\end{DoxyParamCaption})}
+
+
+
+The participant adds an item to it\textquotesingle{}s list of IItems 
+
+
+\begin{DoxyParams}{Parameters}
+{\em item} & The picked up item\\
+\hline
+{\em items} & the list of the participant items\\
+\hline
+{\em max\+Item} & the maximum amount of items it can carry\\
+\hline
+{\em max\+Weapons} & the maximum amount of weapon it can carry\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The list of items
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Argument\+Exception} & Thrown if the item cannot be added\\
+\hline
+\end{DoxyExceptions}
+
+
+Implements \mbox{\hyperlink{interface_game_of_solid_and_design_patterns_1_1_interfaces_1_1_i_participant_base_behavior_a331352b9ea9763d164a6c70fbf49a217}{Game\+Of\+Solid\+And\+Design\+Patterns.\+Interfaces.\+IParticipant\+Base\+Behavior}}.
+
+\mbox{\Hypertarget{class_game_of_solid_and_design_patterns_1_1_participants_1_1_participant_base_behavior_a24b583f1d3ebb7c7112db169a0fd35bd}\label{class_game_of_solid_and_design_patterns_1_1_participants_1_1_participant_base_behavior_a24b583f1d3ebb7c7112db169a0fd35bd}} 
+\index{GameOfSolidAndDesignPatterns.Participants.ParticipantBaseBehavior@{GameOfSolidAndDesignPatterns.Participants.ParticipantBaseBehavior}!ChangeState@{ChangeState}}
+\index{ChangeState@{ChangeState}!GameOfSolidAndDesignPatterns.Participants.ParticipantBaseBehavior@{GameOfSolidAndDesignPatterns.Participants.ParticipantBaseBehavior}}
+\doxysubsubsection{\texorpdfstring{ChangeState()}{ChangeState()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_game_of_solid_and_design_patterns_1_1_participants_1_1_participant_state_1_1_context_state}{Context\+State}} Game\+Of\+Solid\+And\+Design\+Patterns.\+Participants.\+Participant\+Base\+Behavior.\+Change\+State (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interface_game_of_solid_and_design_patterns_1_1_interfaces_1_1_i_item}{IItem}}}]{item,  }\item[{\mbox{\hyperlink{class_game_of_solid_and_design_patterns_1_1_participants_1_1_participant_state_1_1_context_state}{Context\+State}}}]{state }\end{DoxyParamCaption})}
+
+
+
+Change the participant state 
+
+
+\begin{DoxyParams}{Parameters}
+{\em item} & The item to change it\textquotesingle{}s state\\
+\hline
+{\em state} & the participants current state\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the context state object
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interface_game_of_solid_and_design_patterns_1_1_interfaces_1_1_i_participant_base_behavior_a2611c43bde99a78cc42683ff943d8b98}{Game\+Of\+Solid\+And\+Design\+Patterns.\+Interfaces.\+IParticipant\+Base\+Behavior}}.
+
+\mbox{\Hypertarget{class_game_of_solid_and_design_patterns_1_1_participants_1_1_participant_base_behavior_a1a5042e80386b7697f5b5016ef40803e}\label{class_game_of_solid_and_design_patterns_1_1_participants_1_1_participant_base_behavior_a1a5042e80386b7697f5b5016ef40803e}} 
+\index{GameOfSolidAndDesignPatterns.Participants.ParticipantBaseBehavior@{GameOfSolidAndDesignPatterns.Participants.ParticipantBaseBehavior}!DealDamage@{DealDamage}}
+\index{DealDamage@{DealDamage}!GameOfSolidAndDesignPatterns.Participants.ParticipantBaseBehavior@{GameOfSolidAndDesignPatterns.Participants.ParticipantBaseBehavior}}
+\doxysubsubsection{\texorpdfstring{DealDamage()}{DealDamage()}}
+{\footnotesize\ttfamily double Game\+Of\+Solid\+And\+Design\+Patterns.\+Participants.\+Participant\+Base\+Behavior.\+Deal\+Damage (\begin{DoxyParamCaption}\item[{List$<$ \mbox{\hyperlink{interface_game_of_solid_and_design_patterns_1_1_interfaces_1_1_i_item}{IItem}} $>$}]{items,  }\item[{\mbox{\hyperlink{namespace_game_of_solid_and_design_patterns_1_1_participants_1_1_participant_state_a8713058b1b74f5eb321864f398a5543f}{Creature\+State}}}]{state }\end{DoxyParamCaption})}
+
+
+
+The damage a participant can do from it\textquotesingle{}s items and state 
+
+
+\begin{DoxyParams}{Parameters}
+{\em items} & the participants list of items\\
+\hline
+{\em state} & the participant state\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the damage
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interface_game_of_solid_and_design_patterns_1_1_interfaces_1_1_i_participant_base_behavior_a9195e8e461a325432c81b24584f3d57f}{Game\+Of\+Solid\+And\+Design\+Patterns.\+Interfaces.\+IParticipant\+Base\+Behavior}}.
+
+\mbox{\Hypertarget{class_game_of_solid_and_design_patterns_1_1_participants_1_1_participant_base_behavior_a855cdaa7a366c4de3fd189f5b157ae6c}\label{class_game_of_solid_and_design_patterns_1_1_participants_1_1_participant_base_behavior_a855cdaa7a366c4de3fd189f5b157ae6c}} 
+\index{GameOfSolidAndDesignPatterns.Participants.ParticipantBaseBehavior@{GameOfSolidAndDesignPatterns.Participants.ParticipantBaseBehavior}!Eat@{Eat}}
+\index{Eat@{Eat}!GameOfSolidAndDesignPatterns.Participants.ParticipantBaseBehavior@{GameOfSolidAndDesignPatterns.Participants.ParticipantBaseBehavior}}
+\doxysubsubsection{\texorpdfstring{Eat()}{Eat()}}
+{\footnotesize\ttfamily int Game\+Of\+Solid\+And\+Design\+Patterns.\+Participants.\+Participant\+Base\+Behavior.\+Eat (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interface_game_of_solid_and_design_patterns_1_1_interfaces_1_1_i_item}{IItem}}}]{item }\end{DoxyParamCaption})}
+
+
+
+eat an item of which is a Item\+Base object 
+
+
+\begin{DoxyParams}{Parameters}
+{\em item} & the item\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the healing from the eaten item
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interface_game_of_solid_and_design_patterns_1_1_interfaces_1_1_i_participant_base_behavior_a6d10445f68d6a63cfe9e8497bc2e4a73}{Game\+Of\+Solid\+And\+Design\+Patterns.\+Interfaces.\+IParticipant\+Base\+Behavior}}.
+
+\mbox{\Hypertarget{class_game_of_solid_and_design_patterns_1_1_participants_1_1_participant_base_behavior_a0494550ff430583a1aeaeed5d990b4a4}\label{class_game_of_solid_and_design_patterns_1_1_participants_1_1_participant_base_behavior_a0494550ff430583a1aeaeed5d990b4a4}} 
+\index{GameOfSolidAndDesignPatterns.Participants.ParticipantBaseBehavior@{GameOfSolidAndDesignPatterns.Participants.ParticipantBaseBehavior}!ReceiveDamage@{ReceiveDamage}}
+\index{ReceiveDamage@{ReceiveDamage}!GameOfSolidAndDesignPatterns.Participants.ParticipantBaseBehavior@{GameOfSolidAndDesignPatterns.Participants.ParticipantBaseBehavior}}
+\doxysubsubsection{\texorpdfstring{ReceiveDamage()}{ReceiveDamage()}}
+{\footnotesize\ttfamily double Game\+Of\+Solid\+And\+Design\+Patterns.\+Participants.\+Participant\+Base\+Behavior.\+Receive\+Damage (\begin{DoxyParamCaption}\item[{double}]{damage,  }\item[{List$<$ \mbox{\hyperlink{interface_game_of_solid_and_design_patterns_1_1_interfaces_1_1_i_item}{IItem}} $>$}]{items }\end{DoxyParamCaption})}
+
+
+
+The received damage to the participant, which gets reduced from the items 
+
+
+\begin{DoxyParams}{Parameters}
+{\em damage} & the total damage to the participant\\
+\hline
+{\em items} & the participants items\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the actual received damage
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interface_game_of_solid_and_design_patterns_1_1_interfaces_1_1_i_participant_base_behavior_ace1c66ad0ec791ee222d6a79de83711a}{Game\+Of\+Solid\+And\+Design\+Patterns.\+Interfaces.\+IParticipant\+Base\+Behavior}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/andre/\+One\+Drive/\+Skrivebord/\+Zealand  Datamatiker/4. Semester/\+Advancered Programmering/mandatory/\+Game\+Of\+Solid\+And\+Design\+Patterns/\+Participants/\mbox{\hyperlink{_participant_base_behavior_8cs}{Participant\+Base\+Behavior.\+cs}}\end{DoxyCompactItemize}

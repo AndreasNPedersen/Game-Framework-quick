@@ -1,0 +1,77 @@
+\hypertarget{interface_game_of_solid_and_design_patterns_1_1_interfaces_1_1_i_participant_factory}{}\doxysection{Game\+Of\+Solid\+And\+Design\+Patterns.\+Interfaces.\+IParticipant\+Factory Interface Reference}
+\label{interface_game_of_solid_and_design_patterns_1_1_interfaces_1_1_i_participant_factory}\index{GameOfSolidAndDesignPatterns.Interfaces.IParticipantFactory@{GameOfSolidAndDesignPatterns.Interfaces.IParticipantFactory}}
+
+
+The interface to the Participant factory in which you can instantiate Participant\+Base objects  
+
+
+Inheritance diagram for Game\+Of\+Solid\+And\+Design\+Patterns.\+Interfaces.\+IParticipant\+Factory\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{interface_game_of_solid_and_design_patterns_1_1_interfaces_1_1_i_participant_factory}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{interface_game_of_solid_and_design_patterns_1_1_interfaces_1_1_i_participant}{IParticipant}} \mbox{\hyperlink{interface_game_of_solid_and_design_patterns_1_1_interfaces_1_1_i_participant_factory_a981251a1a8a5237d303378b38b7e1fd0}{Create\+Participant\+Character}} (\mbox{\hyperlink{namespace_game_of_solid_and_design_patterns_1_1_participants_a669a6ea62a843b2f431fd15b979d7e64}{Participant\+Types\+Enum}} types, string name)
+\begin{DoxyCompactList}\small\item\em Create the main character of the game \end{DoxyCompactList}\item 
+\mbox{\hyperlink{interface_game_of_solid_and_design_patterns_1_1_interfaces_1_1_i_participant}{IParticipant}} \mbox{\hyperlink{interface_game_of_solid_and_design_patterns_1_1_interfaces_1_1_i_participant_factory_ace8fa31bb4676e739e3793ce0a33bc58}{Create\+Participant\+NPC}} (\mbox{\hyperlink{namespace_game_of_solid_and_design_patterns_1_1_participants_a669a6ea62a843b2f431fd15b979d7e64}{Participant\+Types\+Enum}} types)
+\begin{DoxyCompactList}\small\item\em Create an NPC \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+The interface to the Participant factory in which you can instantiate Participant\+Base objects 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{interface_game_of_solid_and_design_patterns_1_1_interfaces_1_1_i_participant_factory_a981251a1a8a5237d303378b38b7e1fd0}\label{interface_game_of_solid_and_design_patterns_1_1_interfaces_1_1_i_participant_factory_a981251a1a8a5237d303378b38b7e1fd0}} 
+\index{GameOfSolidAndDesignPatterns.Interfaces.IParticipantFactory@{GameOfSolidAndDesignPatterns.Interfaces.IParticipantFactory}!CreateParticipantCharacter@{CreateParticipantCharacter}}
+\index{CreateParticipantCharacter@{CreateParticipantCharacter}!GameOfSolidAndDesignPatterns.Interfaces.IParticipantFactory@{GameOfSolidAndDesignPatterns.Interfaces.IParticipantFactory}}
+\doxysubsubsection{\texorpdfstring{CreateParticipantCharacter()}{CreateParticipantCharacter()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{interface_game_of_solid_and_design_patterns_1_1_interfaces_1_1_i_participant}{IParticipant}} Game\+Of\+Solid\+And\+Design\+Patterns.\+Interfaces.\+IParticipant\+Factory.\+Create\+Participant\+Character (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{namespace_game_of_solid_and_design_patterns_1_1_participants_a669a6ea62a843b2f431fd15b979d7e64}{Participant\+Types\+Enum}}}]{types,  }\item[{string}]{name }\end{DoxyParamCaption})}
+
+
+
+Create the main character of the game 
+
+
+\begin{DoxyParams}{Parameters}
+{\em types} & The type of participant enum\\
+\hline
+{\em name} & the name of the character\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The character
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{class_game_of_solid_and_design_patterns_1_1_factories_1_1_participant_factory_a2e4fbde55510892568fa254bd759a662}{Game\+Of\+Solid\+And\+Design\+Patterns.\+Factories.\+Participant\+Factory}}.
+
+\mbox{\Hypertarget{interface_game_of_solid_and_design_patterns_1_1_interfaces_1_1_i_participant_factory_ace8fa31bb4676e739e3793ce0a33bc58}\label{interface_game_of_solid_and_design_patterns_1_1_interfaces_1_1_i_participant_factory_ace8fa31bb4676e739e3793ce0a33bc58}} 
+\index{GameOfSolidAndDesignPatterns.Interfaces.IParticipantFactory@{GameOfSolidAndDesignPatterns.Interfaces.IParticipantFactory}!CreateParticipantNPC@{CreateParticipantNPC}}
+\index{CreateParticipantNPC@{CreateParticipantNPC}!GameOfSolidAndDesignPatterns.Interfaces.IParticipantFactory@{GameOfSolidAndDesignPatterns.Interfaces.IParticipantFactory}}
+\doxysubsubsection{\texorpdfstring{CreateParticipantNPC()}{CreateParticipantNPC()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{interface_game_of_solid_and_design_patterns_1_1_interfaces_1_1_i_participant}{IParticipant}} Game\+Of\+Solid\+And\+Design\+Patterns.\+Interfaces.\+IParticipant\+Factory.\+Create\+Participant\+NPC (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{namespace_game_of_solid_and_design_patterns_1_1_participants_a669a6ea62a843b2f431fd15b979d7e64}{Participant\+Types\+Enum}}}]{types }\end{DoxyParamCaption})}
+
+
+
+Create an NPC 
+
+
+\begin{DoxyParams}{Parameters}
+{\em types} & The ype of NPC from enum\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the NPC
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{class_game_of_solid_and_design_patterns_1_1_factories_1_1_participant_factory_a7972c77529a50e88d7727b965270f966}{Game\+Of\+Solid\+And\+Design\+Patterns.\+Factories.\+Participant\+Factory}}.
+
+
+
+The documentation for this interface was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/andre/\+One\+Drive/\+Skrivebord/\+Zealand  Datamatiker/4. Semester/\+Advancered Programmering/mandatory/\+Game\+Of\+Solid\+And\+Design\+Patterns/\+Interfaces/\mbox{\hyperlink{_i_participant_factory_8cs}{IParticipant\+Factory.\+cs}}\end{DoxyCompactItemize}

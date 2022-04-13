@@ -1,0 +1,5 @@
+var searchData=
+[
+  ['healing_0',['Healing',['../class_game_of_solid_and_design_patterns_1_1_items_1_1_item_base.html#a7706e332aaa8dbb6b595b8a512b2d7d2',1,'GameOfSolidAndDesignPatterns.Items.ItemBase.Healing()'],['../class_game_of_solid_and_design_patterns_1_1_items_1_1_world_items_1_1_bread.html#aa3278313cdadf8c6f0e1930877e6ef17',1,'GameOfSolidAndDesignPatterns.Items.WorldItems.Bread.Healing()'],['../class_game_of_solid_and_design_patterns_1_1_items_1_1_world_items_1_1_mushroom.html#a324b64b8096629ac5d65b6f2b0254ed2',1,'GameOfSolidAndDesignPatterns.Items.WorldItems.Mushroom.Healing()']]],
+  ['healthpoints_1',['HealthPoints',['../interface_game_of_solid_and_design_patterns_1_1_interfaces_1_1_i_participant.html#a387c8099978d9697f4c36b96d7107c11',1,'GameOfSolidAndDesignPatterns.Interfaces.IParticipant.HealthPoints()'],['../class_game_of_solid_and_design_patterns_1_1_participants_1_1_participant_base.html#a4566d2c84cba850c777d2c03a94c7507',1,'GameOfSolidAndDesignPatterns.Participants.ParticipantBase.HealthPoints()']]]
+];

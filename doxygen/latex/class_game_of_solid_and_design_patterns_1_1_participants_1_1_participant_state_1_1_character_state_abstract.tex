@@ -1,0 +1,91 @@
+\hypertarget{class_game_of_solid_and_design_patterns_1_1_participants_1_1_participant_state_1_1_character_state_abstract}{}\doxysection{Game\+Of\+Solid\+And\+Design\+Patterns.\+Participants.\+Participant\+State.\+Character\+State\+Abstract Class Reference}
+\label{class_game_of_solid_and_design_patterns_1_1_participants_1_1_participant_state_1_1_character_state_abstract}\index{GameOfSolidAndDesignPatterns.Participants.ParticipantState.CharacterStateAbstract@{GameOfSolidAndDesignPatterns.Participants.ParticipantState.CharacterStateAbstract}}
+
+
+The abstract class which the States shall inherent from  
+
+
+Inheritance diagram for Game\+Of\+Solid\+And\+Design\+Patterns.\+Participants.\+Participant\+State.\+Character\+State\+Abstract\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=1.120000cm]{class_game_of_solid_and_design_patterns_1_1_participants_1_1_participant_state_1_1_character_state_abstract}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_game_of_solid_and_design_patterns_1_1_participants_1_1_participant_state_1_1_character_state_abstract_ad33d7bbccf6d9de0b75c66a60d8822d3}{Set\+Context}} (\mbox{\hyperlink{class_game_of_solid_and_design_patterns_1_1_participants_1_1_participant_state_1_1_context_state}{Context\+State}} context)
+\item 
+abstract void \mbox{\hyperlink{class_game_of_solid_and_design_patterns_1_1_participants_1_1_participant_state_1_1_character_state_abstract_a276cf9e7dac193be4b5f607d08154950}{Input\+Creature\+State}} (\mbox{\hyperlink{namespace_game_of_solid_and_design_patterns_1_1_participants_1_1_participant_state_a8713058b1b74f5eb321864f398a5543f}{Creature\+State}} state, \mbox{\hyperlink{class_game_of_solid_and_design_patterns_1_1_items_1_1_item_base}{Item\+Base}} item)
+\begin{DoxyCompactList}\small\item\em The input that can change the state \end{DoxyCompactList}\item 
+abstract \mbox{\hyperlink{namespace_game_of_solid_and_design_patterns_1_1_participants_1_1_participant_state_a8713058b1b74f5eb321864f398a5543f}{Creature\+State}} \mbox{\hyperlink{class_game_of_solid_and_design_patterns_1_1_participants_1_1_participant_state_1_1_character_state_abstract_ac6ef68ab6704129f2991e807a9b6df0b}{Output\+Creature\+State}} ()
+\begin{DoxyCompactList}\small\item\em outputs the state of the participant \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_game_of_solid_and_design_patterns_1_1_participants_1_1_participant_state_1_1_context_state}{Context\+State}} \mbox{\hyperlink{class_game_of_solid_and_design_patterns_1_1_participants_1_1_participant_state_1_1_character_state_abstract_a651ca74a834bbf4321a9c310cb2bb1fe}{\+\_\+context}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+The abstract class which the States shall inherent from 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_game_of_solid_and_design_patterns_1_1_participants_1_1_participant_state_1_1_character_state_abstract_a276cf9e7dac193be4b5f607d08154950}\label{class_game_of_solid_and_design_patterns_1_1_participants_1_1_participant_state_1_1_character_state_abstract_a276cf9e7dac193be4b5f607d08154950}} 
+\index{GameOfSolidAndDesignPatterns.Participants.ParticipantState.CharacterStateAbstract@{GameOfSolidAndDesignPatterns.Participants.ParticipantState.CharacterStateAbstract}!InputCreatureState@{InputCreatureState}}
+\index{InputCreatureState@{InputCreatureState}!GameOfSolidAndDesignPatterns.Participants.ParticipantState.CharacterStateAbstract@{GameOfSolidAndDesignPatterns.Participants.ParticipantState.CharacterStateAbstract}}
+\doxysubsubsection{\texorpdfstring{InputCreatureState()}{InputCreatureState()}}
+{\footnotesize\ttfamily abstract void Game\+Of\+Solid\+And\+Design\+Patterns.\+Participants.\+Participant\+State.\+Character\+State\+Abstract.\+Input\+Creature\+State (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{namespace_game_of_solid_and_design_patterns_1_1_participants_1_1_participant_state_a8713058b1b74f5eb321864f398a5543f}{Creature\+State}}}]{state,  }\item[{\mbox{\hyperlink{class_game_of_solid_and_design_patterns_1_1_items_1_1_item_base}{Item\+Base}}}]{item }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+The input that can change the state 
+
+
+\begin{DoxyParams}{Parameters}
+{\em state} & The state which the participant is in\\
+\hline
+{\em item} & the item that the participant is eating\\
+\hline
+\end{DoxyParams}
+
+
+Implemented in \mbox{\hyperlink{class_game_of_solid_and_design_patterns_1_1_participants_1_1_participant_state_1_1_normal_state_ad53a71903603b0eb42134992361e315d}{Game\+Of\+Solid\+And\+Design\+Patterns.\+Participants.\+Participant\+State.\+Normal\+State}}, and \mbox{\hyperlink{class_game_of_solid_and_design_patterns_1_1_participants_1_1_participant_state_1_1_superpowered_a7525b282933887464e27d21038a5b3b3}{Game\+Of\+Solid\+And\+Design\+Patterns.\+Participants.\+Participant\+State.\+Superpowered}}.
+
+\mbox{\Hypertarget{class_game_of_solid_and_design_patterns_1_1_participants_1_1_participant_state_1_1_character_state_abstract_ac6ef68ab6704129f2991e807a9b6df0b}\label{class_game_of_solid_and_design_patterns_1_1_participants_1_1_participant_state_1_1_character_state_abstract_ac6ef68ab6704129f2991e807a9b6df0b}} 
+\index{GameOfSolidAndDesignPatterns.Participants.ParticipantState.CharacterStateAbstract@{GameOfSolidAndDesignPatterns.Participants.ParticipantState.CharacterStateAbstract}!OutputCreatureState@{OutputCreatureState}}
+\index{OutputCreatureState@{OutputCreatureState}!GameOfSolidAndDesignPatterns.Participants.ParticipantState.CharacterStateAbstract@{GameOfSolidAndDesignPatterns.Participants.ParticipantState.CharacterStateAbstract}}
+\doxysubsubsection{\texorpdfstring{OutputCreatureState()}{OutputCreatureState()}}
+{\footnotesize\ttfamily abstract \mbox{\hyperlink{namespace_game_of_solid_and_design_patterns_1_1_participants_1_1_participant_state_a8713058b1b74f5eb321864f398a5543f}{Creature\+State}} Game\+Of\+Solid\+And\+Design\+Patterns.\+Participants.\+Participant\+State.\+Character\+State\+Abstract.\+Output\+Creature\+State (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+outputs the state of the participant 
+
+\begin{DoxyReturn}{Returns}
+The state of the participant
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{class_game_of_solid_and_design_patterns_1_1_participants_1_1_participant_state_1_1_normal_state_a8170769cab6916fa5a094bdfa2b58a58}{Game\+Of\+Solid\+And\+Design\+Patterns.\+Participants.\+Participant\+State.\+Normal\+State}}, and \mbox{\hyperlink{class_game_of_solid_and_design_patterns_1_1_participants_1_1_participant_state_1_1_superpowered_a43a97339ef236974f6644fb785593b90}{Game\+Of\+Solid\+And\+Design\+Patterns.\+Participants.\+Participant\+State.\+Superpowered}}.
+
+\mbox{\Hypertarget{class_game_of_solid_and_design_patterns_1_1_participants_1_1_participant_state_1_1_character_state_abstract_ad33d7bbccf6d9de0b75c66a60d8822d3}\label{class_game_of_solid_and_design_patterns_1_1_participants_1_1_participant_state_1_1_character_state_abstract_ad33d7bbccf6d9de0b75c66a60d8822d3}} 
+\index{GameOfSolidAndDesignPatterns.Participants.ParticipantState.CharacterStateAbstract@{GameOfSolidAndDesignPatterns.Participants.ParticipantState.CharacterStateAbstract}!SetContext@{SetContext}}
+\index{SetContext@{SetContext}!GameOfSolidAndDesignPatterns.Participants.ParticipantState.CharacterStateAbstract@{GameOfSolidAndDesignPatterns.Participants.ParticipantState.CharacterStateAbstract}}
+\doxysubsubsection{\texorpdfstring{SetContext()}{SetContext()}}
+{\footnotesize\ttfamily void Game\+Of\+Solid\+And\+Design\+Patterns.\+Participants.\+Participant\+State.\+Character\+State\+Abstract.\+Set\+Context (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_game_of_solid_and_design_patterns_1_1_participants_1_1_participant_state_1_1_context_state}{Context\+State}}}]{context }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_game_of_solid_and_design_patterns_1_1_participants_1_1_participant_state_1_1_character_state_abstract_a651ca74a834bbf4321a9c310cb2bb1fe}\label{class_game_of_solid_and_design_patterns_1_1_participants_1_1_participant_state_1_1_character_state_abstract_a651ca74a834bbf4321a9c310cb2bb1fe}} 
+\index{GameOfSolidAndDesignPatterns.Participants.ParticipantState.CharacterStateAbstract@{GameOfSolidAndDesignPatterns.Participants.ParticipantState.CharacterStateAbstract}!\_context@{\_context}}
+\index{\_context@{\_context}!GameOfSolidAndDesignPatterns.Participants.ParticipantState.CharacterStateAbstract@{GameOfSolidAndDesignPatterns.Participants.ParticipantState.CharacterStateAbstract}}
+\doxysubsubsection{\texorpdfstring{\_context}{\_context}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_game_of_solid_and_design_patterns_1_1_participants_1_1_participant_state_1_1_context_state}{Context\+State}} Game\+Of\+Solid\+And\+Design\+Patterns.\+Participants.\+Participant\+State.\+Character\+State\+Abstract.\+\_\+context\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/andre/\+One\+Drive/\+Skrivebord/\+Zealand  Datamatiker/4. Semester/\+Advancered Programmering/mandatory/\+Game\+Of\+Solid\+And\+Design\+Patterns/\+Participants/\+Participant\+State/\mbox{\hyperlink{_character_state_abstract_8cs}{Character\+State\+Abstract.\+cs}}\end{DoxyCompactItemize}
